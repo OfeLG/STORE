@@ -1,0 +1,31 @@
+:root{
+    --light_grey:#7e7d7d;
+    --text_input_field:#F7F7F7;
+    --store_purple:#c98de1;
+    --dark:#232830;
+    --white:#FFFFFF;
+    --black: #000000;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+
+    margin: 0;
+}
+
+
+.primary_button {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+
+    background-color: var(--store_purple);
+    color: var(--white);
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+}
