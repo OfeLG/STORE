@@ -1,0 +1,40 @@
+.mobile_menu{
+    padding: 24px 24px 0px 24px;
+}
+
+.mobile_menu a{
+    text-decoration: none;
+    color: var(--black);
+    font-weight: bold;
+}
+
+.mobile_menu ul{
+    padding: 0;
+    margin-top: 24px;
+
+    list-style: none;
+}
+
+.mobile_menu ul:nth-child(1){
+    border-bottom: 1px solid var(--store_purple);
+
+    list-style: none;
+}
+
+.mobile_menu ul li{
+    margin-bottom: 24px;
+}
+
+.mobile_menu ul:nth-child(3){
+    margin-top: 100px;
+}
+
+.email{
+    font-size: var(--sm);
+    font-weight: 400 !important;
+}
+
+.sign_out{
+    color: var(--store_purple) !important;
+    font-size: var(--sm);
+}

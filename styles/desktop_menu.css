@@ -1,4 +1,4 @@
-.menu{
+.desktop_menu{
     width: 100px;
     height: auto;
     border: 1px solid var(--store_purple);
@@ -6,31 +6,31 @@
     padding: 20px 20px 0 20px;
 }
 
-.menu ul{
+.desktop_menu ul{
     margin: 0;
     padding: 0;
 
     list-style: none;
 }
 
-.menu ul li{
+.desktop_menu ul li{
     text-align: end;
     margin-bottom: 20px;
 }
 
-.menu ul li:last-child{
+.desktop_menu ul li:last-child{
     padding-top: 20px;
     border-top: 1px solid var(--store_purple);
 }
 
 
-.menu ul li:last-child a{
+.desktop_menu ul li:last-child a{
     font-size: var(sm);
     color: var(--store_purple);
     text-decoration: none;
 }
 
-.menu ul li:not(:last-child) a{
+.desktop_menu ul li:not(:last-child) a{
     font-size: var(sm);
     color: var(--black);
     text-decoration: none;
