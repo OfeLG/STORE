@@ -12,7 +12,7 @@
 
 .title{
     margin-bottom: 20px;
-    
+
     font-size: var(--lg);
     text-align: center;
 }
@@ -28,16 +28,16 @@
 
 .order{
     display: grid;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: auto 1fr auto;
     gap: 20px;
     align-items: center;
 
     height: 60px;
     padding: 0px 24px 0px 24px;
     border-radius: 8px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 
-    background-color: var(--very-light-pink);
+    background: var(--very-light-pink);
 }
 
 .order p:nth-child(1){
@@ -62,34 +62,9 @@
     font-weight: bold;
 }
 
-.shopping_cart figure img{ /*A figure lo cuenta como un p*/
-    width: var(--card_size);
-    height: var(--card_size);
-    border-radius: 20px;
-    object-fit: cover;
-}
-
-.shopping_cart p:nth-child(2){
+.order i{
+    font-size: 20px;
     color: var(--light_grey);
-    font-size: var(--md);
+    cursor:pointer;
 }
 
-.shopping_cart p:nth-child(3){
-    color: var(--black);
-    font-size: var(--md);
-    font-weight: bold;
-}
-
-.shopping_cart{
-    display: grid;
-    grid-template-columns: auto 1fr auto;
-    gap: 20px;
-    align-items:center;
-
-    margin-bottom: 20px;
-    padding-right: 25px;
-}
-
-.shopping_cart figure{
-    margin: 0;
-}
