@@ -1,6 +1,7 @@
 :root{
     --light_grey:#7e7d7d;
     --text_input_field:#F7F7F7;
+    --very-light-pink: #f7eaf3;
     --store_purple:#c98de1;
     --white:#FFFFFF;
     --black: #000000;
@@ -41,3 +42,4 @@ body{
     font-size: var(--md);
     font-weight: bold;
 }
+
