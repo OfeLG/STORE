@@ -1,5 +1,5 @@
 :root{
-    --card_size:150px;
+    --container_size:600px;
 }
 
 .my_order{
@@ -18,7 +18,7 @@
 }
 
 .my_order_container{
-    width: 600px;
+    width: var(--container_size);
 } 
 
 .my_order_contents{
@@ -68,3 +68,13 @@
     cursor:pointer;
 }
 
+@media (max-width:675px){
+    :root{
+        --container_size: 450px;
+    }
+}
+@media (max-width:475px){
+    :root{
+        --container_size: 350px;
+    }
+}
